@@ -21,11 +21,12 @@ unreleased
     - perf: hoist regular expression
     - perf: use for loop in parse
     - perf: use string concatination for serialization
-  * deps: proxy-addr@~1.1.1
+  * deps: proxy-addr@~1.1.2
     - Fix accepting various invalid netmasks
+    - Fix IPv6-mapped IPv4 validation edge cases
     - IPv4 netmasks must be contingous
     - IPv6 addresses cannot be used as a netmask
-    - deps: ipaddr.js@1.1.0
+    - deps: ipaddr.js@1.1.1
   * deps: range-parser@~1.1.0
     - Fix incorrectly returning -1 when there is at least one valid range
     - perf: remove internal function
